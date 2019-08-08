@@ -27,3 +27,5 @@ function afterConnection() {
         connection.end();
     });
 }
+
+module.exports = connection;
