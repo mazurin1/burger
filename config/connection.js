@@ -24,7 +24,7 @@ function afterConnection() {
         if (err) throw err;
 
         console.log(res);
-        connection.end();
+        //connection.end();
     });
 }
 
