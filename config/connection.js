@@ -2,14 +2,16 @@
 // CONNECTION.JS - THIS FILE INITIATES THE CONNECTION TO MYSQL
 // *********************************************************************************
 //read data
+
+
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-    host: "localhost",
-    port: 8889,
-    user: "root",
-    password: "root",
-    database: "burgers_db"
+    host: "o3iyl77734b9n3tg.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    port: 3306,
+    user: "smw9c41s52w50x31",
+    password: "zr1y8ejt9tjnx4yf",
+    database: "mbo3veq5b8er176d"
 });
 
 connection.connect(function (err) {
