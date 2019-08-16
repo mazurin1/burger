@@ -22,7 +22,7 @@ connection.connect(function (err) {
 });
 
 function afterConnection() {
-    connection.query("SELECT * FROM burgers_db.burgers", function (err, res) {
+    connection.query("SELECT * FROM burgers", function (err, res) {
         if (err) throw err;
 
         console.log(res);
